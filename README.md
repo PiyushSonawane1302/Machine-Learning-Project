@@ -39,9 +39,10 @@
 `print("The final predicted score (range): {} to {}".format(final_score-10, final_score+10))`
 
 * E.g 
-
-`batting_team = 'Mumbai Indians'`
-`bowling_team = 'Kings XI Punjab'`
-`final_score = predict_score(batting_team,bowling_team,overs=14.1,runs=136,wickets=4,runs_last_5=50,wickets_last_5=0)`
-`print("The final predicted score (range): {} to {}".format(final_score-10, final_score+10))`
+```
+batting_team = 'Mumbai Indians'
+bowling_team = 'Kings XI Punjab'
+final_score = predict_score(batting_team,bowling_team,overs=14.1,runs=136,wickets=4,runs_last_5=50,wickets_last_5=0)
+print("The final predicted score (range): {} to {}".format(final_score-10, final_score+10))
+```
 * Output : The final predicted score (range): 177 to 197
